@@ -70,7 +70,7 @@ public class Inventory {
 
     //>>> Clean Arch / Port Method
     //<<< Clean Arch / Port Method
-    public static void increaseCloth(DeliveryReturned deliveryReturned) {
+    public static void increaseCloth(DeliveryCanceled deliveryCanceled) {
         //implement business logic here:
 
         /** Example 1:  new item 
@@ -83,7 +83,7 @@ public class Inventory {
 
         /** Example 2:  finding and process
         
-        repository().findById(deliveryReturned.get???()).ifPresent(inventory->{
+        repository().findById(deliveryCanceled.get???()).ifPresent(inventory->{
             
             inventory // do something
             repository().save(inventory);
